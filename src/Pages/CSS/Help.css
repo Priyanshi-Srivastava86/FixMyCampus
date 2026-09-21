@@ -1,0 +1,93 @@
+.help-container {
+  width: 85%;
+  max-width: 1000px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+   background-color: #F0FDFA;
+}
+
+.help-container > h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+    color: #0F766E;
+}
+
+.help-container > p {
+  color: #666;
+  margin-bottom: 35px;
+}
+
+.help-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.help-card {
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+}
+
+.help-card h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.help-card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+
+.help-footer {
+  margin-top: 50px;
+  padding: 35px;
+  text-align: center;
+  border-radius: 12px;
+
+  background-color: #0F766E;
+  color: white;
+}
+
+.help-footer h2 {
+  margin-bottom: 10px;
+}
+
+.help-footer p {
+  margin-bottom: 25px;
+  color: #ddd;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.contact-buttons a {
+  padding: 13px 25px;
+  border-radius: 7px;
+  text-decoration: none;
+ 
+   font-size: 20px;
+}
+.contact-buttons   :hover{
+    background-color: #555;
+      transform: translateY(-2px);
+   
+ 
+}
+
+.call-btn {
+  background-color: white;
+  color: #111;
+}
+
+.whatsapp-btn {
+  background-color: #25D366;
+  color: white;
+ 
+}
+

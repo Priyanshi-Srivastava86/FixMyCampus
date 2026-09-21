@@ -5,9 +5,13 @@ import ReportIssue from "./Components/ReportIssue";
 import Updates from "./Pages/Updates";
 import TrackProblem from "./Pages/TrackProblem";
 import Help from "./Pages/Help";
+<<<<<<< HEAD
 import Home from "./Pages/CSS/Home"; 
 import StudentRegister from "./Pages/StudentRegister";
 
+=======
+import Home from "./Pages/Home";
+>>>>>>> 17a9b49 (Updated FixMyCampus pages and features)
 
 const App = () => {
   return (
