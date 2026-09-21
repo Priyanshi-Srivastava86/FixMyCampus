@@ -5,7 +5,9 @@ import ReportIssue from "./Components/ReportIssue";
 import Updates from "./Pages/Updates";
 import TrackProblem from "./Pages/TrackProblem";
 import Help from "./Pages/Help";
-import Home from "./Pages/CSS/Home";
+import Home from "./Pages/CSS/Home"; 
+import StudentRegister from "./Pages/StudentRegister";
+
 
 const App = () => {
   return (
@@ -15,7 +17,8 @@ const App = () => {
       <Navbar />
       <Routes>
         
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<StudentRegister />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/reportissue" element={<ReportIssue />} />
         <Route path="/help" element={<Help />} />
         <Route path="/trackproblem" element={<TrackProblem />} />
